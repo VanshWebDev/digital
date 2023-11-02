@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&family=Saira:wght@500&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Montserrat:wght@300;400&family=Nunito&family=Raleway&family=Saira:wght@500&family=Young+Serif&display=swap');
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
+.newmidpageloop{
+    /* border: 2px solid red; */
+    margin: 100px;
+}
+.content-mid-sub{
+    /* border: 2px solid green; */
+}
+.newpage-mid{
+    /* border: 2px solid orange; */
+}
+.table-top{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.newpage-row2{
+    /* border: 2px solid blue; */
+}
+.table-posttitle{
+    text-align: center;
+}
+#zeroth{
+    /* border: 2px solid red; */
+    background-color: rgb(2, 172, 2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+    padding: 50px;
+    border-radius: 20px;
+}
+#zeroth span{
+   
+}
+.right{
+    font-size: 30px;
+    /* border: 2px solid green; */
+}
+@media (max-width: 900px) {
+    .right{
+        font-size: 20px;
+    }
+    .resText3{
+        font-size: 16px;
+    }
+}
+@media (max-width: 720px) {
+    .right{
+        font-size: 15px;
+        margin-top: 50px;
+    }
+    .left img{
+        height: 100px;
+    }
+    #zeroth{
+        flex-direction: column;
+    }
+    .newmidpageloop{
+        margin: 40px;
+    }
+}
+@media (max-width: 500px) {
+    .right{
+        font-size: 12px;
+        margin-top: 40px;
+    }
+    .left img{
+        height: 80px;
+        /* border: 2px solid red; */
+    }
+    #zeroth{
+        flex-direction: column;
+        margin: 40px;
+    }
+}
+@media (max-width: 500px) {
+    .right{
+        font-size: 12px;
+        margin-top: 50px;
+    }
+    .left{
+        height: 50px;
+    }
+    #zeroth{
+        flex-direction: column;
+    }
+    .newmidpageloop{
+        margin: 10px;
+    }
+
+    .resText{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 350px) {
+.resText{
+    font-size: 16px;
+}
+.resText3{
+    font-size: 14px;
+}
+}
+@media (max-width: 270px) {
+.resText2{
+    font-size: 12px;
+}
+}
+@media (max-width: 250px) {
+    .right{
+        font-size: 8px;
+        margin-top: 50px;
+    }
+    .left img{
+        height: 50px;
+    }
+}
+
+
+
+.afteruntitled{
+    /* border: 2px solid red; */
+}
+.afteruntitled li {
+    /* border: 2px solid red; */
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.afteruntitled li a{
+    /* border: 2px solid red; */
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+/* kvs tgt pgt admit card 2023 */
+.kvs-tgt-card{
+    text-align: center;
+    /* border: 2px solid red; */
+    /* background-color: rgb(30, 210, 120); */
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.kvs-tgt-card-text{
+    /* border: 2px solid red; */
+    margin-bottom: 80px;
+    /* margin-top: 20px; */
+}
+.kvs-principal{
+    text-align: center;
+    /* border: 2px solid red; */
+    /* background-color: rgb(30, 210, 120); */
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.kvs-principal-text{
+    /* border: 2px solid red; */
+    margin-bottom: 80px;
+}
+.table{
+    /* border: 2px solid rgb(0, 0, 0); */
+    width: 100%;
+}
+.table tr td{
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-top: 2px solid rgba(73, 72, 72, 0.658);
+    /* border-bottom: 2px solid rgb(0, 0, 0); */
+}
+
+.footer-menu{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.footer-btn{
+    text-align: center;
+}
+#statusOfAdmitOnr{
+    width: 100%;
+    border: 2px solid rgb(29, 26, 26);
+display: flex;
+justify-content: center;
+}
+.statusOfAdmit{
+    margin-top: 50px;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.statusOfAdmit tr:nth-child(2) td span{
+    border-top: 2px solid rgb(0, 0, 0);
+    padding-top: 2px;
+    
+}
+.displayFlex{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid rgb(0, 0, 0); */
+    height: 40px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#syllabus{
+    border:none;
+    /* background-color: rgb(228, 230, 126); */
+    border-radius: 10px;
+}
+.bottom-border{
+    border-bottom: 2px solid rgb(75, 69, 69); padding: 4px; 
+    border-radius: 2px;
+}
